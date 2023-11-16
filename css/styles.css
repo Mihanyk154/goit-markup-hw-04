@@ -297,6 +297,8 @@ img {
   background-color: #404bbf;
 }
 
+
+
 .icon-svg {
   fill: #f4f4fd;
 }
@@ -359,7 +361,7 @@ img {
 
 .list-element-portfolio {
   width: calc((100% - 48px) / 3);
-  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .list-element-portfolio:hover {
@@ -411,6 +413,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
