@@ -373,7 +373,7 @@ p {
 
 }
 
-.list-element-portfolio:hover.img-text {
+.list-element-portfolio:hover .img-text {
   transform: translateY(0%);
 }
 
