@@ -22,9 +22,12 @@ img {
   display: block;
 }
 
- h1,h2,h3,p {
+h1,
+h2,
+h3,
+p {
   margin-top: 0;
-  margin-bottom: 0; 
+  margin-bottom: 0;
 }
 
 /*header*/
@@ -84,7 +87,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf;
+  color: #2E2F42;
   padding: 24px 0;
   display: block;
   position: relative;
@@ -92,11 +95,15 @@ img {
 }
 
 .link-nav:hover,
-:focus {
+.link-nav:focus {
+  color: #404bbf;
+}
+.current{
+  position: relative;
   color: #404bbf;
 }
 
-.link-nav::after {
+.link-nav.current::after {
   content: '';
   position: absolute;
   left: 0;
